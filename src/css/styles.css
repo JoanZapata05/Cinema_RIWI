@@ -1,0 +1,27 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+:root{
+    --color-primary:#181e4b;
+    --color-texto: white;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "poppins", sans-serif;
+}
+.header{
+    background-color: var(--color-primary) ;
+    color:  var(--color-texto);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px; 
+}
+
+
+.nav a{
+    text-decoration: none;
+    color: var(--color-texto);
+    padding: 20px;
+}
